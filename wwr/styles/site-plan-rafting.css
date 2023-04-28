@@ -5,7 +5,7 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&family=Roboto:wght@300&display=swap');:root {
   /* change the values below to your colors from your palette */
   --primary-color: #ffe0ad   ;
-  --secondary-color: #41ebe2 ;
+  --secondary-color: #eb762e ;
   --accent1-color: #545E31;
   --accent2-color: white;
 
@@ -20,7 +20,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #545E31  ;
   --nav-link-color: #545E31;
-  --nav-background-color: #41ebe2;
+  --nav-background-color: #eb762e;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #545E31;
 }
