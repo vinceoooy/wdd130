@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&family=Roboto:wght@300&display=swap');
 #content{
     max-width: 1600px;  
     margin: 0 auto;
@@ -6,6 +7,8 @@ nav a{
     color: black;
     text-align: center;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -15,17 +18,19 @@ nav a{
 }
 main section{
     text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
 }
-
-
 #background {
     height: 725px;
 }
-
-
-
 body{
     background-color: #ffe0ad;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color: #ffb259;
@@ -38,37 +43,52 @@ nav a:hover{
     color: black;
     background-color: white;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color: #eb762e;
+    background-color: #ffb259;
     color: white;
 }
 #background{
-    background-color: #eb762e;
+    background-color: #ffb259;
 }
 .msg{
     background-color: #545E31;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
-    background-color: #eb762e;
+    background-color: #ffb259;
 }
-
-
-
 .home-title{
 color: black;
+font-size: 2em;
+font-family: Cherry Swash, Helvetica, sans-serif;
+margin-top: 10px;
 }
 h4{
     color: black;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 .msg h2{
     color: white;
+    font-family: Cherry Swash, Helvetica, sans-serif
 }
 .msg p{
     color: white;
+    font-size: .8em;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding-bottom: 15px;
 }
 footer{
+    font-family: Roboto, Helvetica, sans-serif;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: black;
@@ -78,26 +98,37 @@ footer a:hover{
     color: white;
     background-color: #545E31;
 }
-
-
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-
-
 #hero-img{
     width: 100%;
 }
-
-
 footer p {
     font-size: 1.2em;
 }
-
-
 footer p a:hover {
     text-decoration: underline;
 }   
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #ffb259;
+}
+main section img {
+    box-sizing: border-box;
+}
+.mountains {
+margin: 200px 0;
+}
