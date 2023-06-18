@@ -3,7 +3,7 @@
 
 #content{
     zoom:90%;
-    max-width: 1600px;  
+    width: 1600px;  
     margin: 0 auto;
 }
 nav{
@@ -216,7 +216,7 @@ footer .social img{
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card{ 
         margin: 50px auto;
         width: 60%;
     }
