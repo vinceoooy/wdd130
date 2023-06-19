@@ -2,8 +2,8 @@
 
 
 #content{
-    zoom:90%;
-    width: 1600px;  
+    zoom: 100%;
+    max-width: 1600px;  
     margin: 0 auto;
 }
 nav{
@@ -27,17 +27,7 @@ nav a:hover{
     height: 100%;
     margin-left: 30px;
 }
-.home-title{
-color: white;
-font-size: 1.8em;
-font-family: Russo one, Helvetica, sans-serif;
-margin-top: 10px;
-}
-h4{
-    color: black;
-    font-family: Sora, Helvetica, sans-serif;
-    font-weight: initial;
-}
+
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,20 +47,33 @@ h4{
     grid-row: 1/2;
     margin-top: 150px;
 }
-#hero-vid {
+#vid-box {
     padding-right: 20%;
     padding-top: 22%;
     grid-column: 2/3;
-    grid-row: 1/2;
-    
+    grid-row: 1/2;  
 }
-h1{
+.video{
+    width: 120%;
+
+}
+.home-title{
     text-align: center;
-}
-h4 {
+    color: white;
+    font-size: 1.8em;
+    font-family: Russo one, Helvetica, sans-serif;
+    margin-top: 10px;
+    }
+
+h4{
+    font-size: 1em;
     color: white;
     text-align: justify;
+    font-family: Sora, Helvetica, sans-serif;
+    font-weight: initial;
 }
+
+
 
 
 
@@ -210,11 +213,12 @@ footer .social img{
         margin-top: 0;
     }
     #hero-msg h4 {
-        display: none;
+        font-size: 1em;
+        color: #111111;
     }
     .home-title {
-        font-size: 25px;
-        color: #6f7364;
+        font-size: 1.8em;
+        color: #111111;
     }
     .rivers-card, .camping-card{ 
         margin: 50px auto;
