@@ -115,7 +115,7 @@ footer{
     background-color: #111111;
     color: #ffff;
     padding: 25px 50px;
-    text-decoration: none;
+    text-decoration: none;  
     display: flex;
     justify-content: space-around;
     align-items: center;
