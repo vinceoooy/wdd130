@@ -4,32 +4,567 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Personal Website | Valorant | Page 3 "AGENTS"</title>
     <link type="text/css" rel="stylesheet" href="styles/agents.css">
 </head>
 <body>
-    <form>
-        <div>
-        <input type="radio" name="size" id="small" value="small" checked="checked" /> 
-        <label for="small">1</label>
-                <article><p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p></article>
-        </div>
-        <div>
-        <input type="radio" name="size" id="medium" value="medium" />     
-        <label for="medium">2</label>
-            <article><p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p></article>    
-        </div>
-        <div>
-        <input type="radio" name="size" id="large" value="large" />     
-        <label for="large">3</label>
-            <article><p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p></article>
-        </div>
-        <div>    
-        <input type="radio" name="size" id="xlarge" value="xlarge" />     
-        <label for="xlarge">4</label>
-            <article><p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p></article>
-        </div>
-    </form>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="pictures/Valorant-Logo.png" alt="Valorant logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="agents.html">Agents</a>
+                <a href="maps.html">Maps</a>
+            </nav>
+        </header>
+    
+              <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">                  
+                    <a onclick="currentSlide(1)" alt="BRIMSTONE (ROLE: CONTROLLER)"> BRIMSTONE </a>
+                    <a onclick="currentSlide(2)"> PHEONIX </a>
+                    <a onclick="currentSlide(3)"> SAGE </a>
+                    <a onclick="currentSlide(4)"> SOVA </a>
+                    <a onclick="currentSlide(5)"> VIPER </a>
+                    <a onclick="currentSlide(6)"> CYPHER </a>
+                    <a onclick="currentSlide(7)"> REYNA </a>
+                    <a onclick="currentSlide(8)"> KILLJOY </a>
+                    <a onclick="currentSlide(9)"> BREACH </a>
+                    <a onclick="currentSlide(10)"> OMEN </a>
+                    <a onclick="currentSlide(11)"> JETT </a>
+                    <a onclick="currentSlide(12)"> RAZE </a>
+                    <a onclick="currentSlide(13)"> SKYE </a>
+                    <a onclick="currentSlide(14)"> YORU </a>
+                    <a onclick="currentSlide(15)"> ASTRA </a>
+                    <a onclick="currentSlide(16)"> KAY/O</a>
+                    <a onclick="currentSlide(17)"> CHAMBER </a>
+                    <a onclick="currentSlide(18)"> NEON </a>
+                    <a onclick="currentSlide(19)"> FADE </a>
+                    <a onclick="currentSlide(20)"> HARBOR </a>
+                    <a onclick="currentSlide(21)"> GEKKO </a>
+                </div>
+              </div>
 
+
+        <div class="container">
+
+
+            
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/brimstone/brimstone.jpeg" style="width:100%" alt="1">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'INCENDIARY')" id="defaultOpen"><img src="pictures/brimstone/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'SKY SMOKE')"><img src="pictures/brimstone/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'STIM BEACON')"><img src="pictures/brimstone/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'ORBITAL STRIKE')"><img src="pictures/brimstone/x.png"></button>
+                    </div>
+                    
+                    <!-- Tab content -->
+                    <div id="INCENDIARY" class="tabcontent">
+                      <h3>Q - INCENDIARY</h3>
+                      <p>EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.</p>
+                    </div>
+                    <div id="SKY SMOKE" class="tabcontent">
+                      <h3>E - SKY SMOKE</h3>
+                      <p>EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.</p>
+                    </div>
+                    <div id="STIM BEACON" class="tabcontent">
+                      <h3>C - STIM BEACON</h3>
+                      <p>EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.</p>
+                    </div>
+                    <div id="ORBITAL STRIKE" class="tabcontent">
+                      <h3>X - ORBITAL STRIKE</h3>
+                      <p>EQUIP a tactical map. FIRE to launch a lingering orbital strike laser at the selected location, dealing high damage-over-time to players caught in the selected area.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                      <h3>BIOGRAPHY</h3>
+                      <p>Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance makes him an unmatched boots-on-the-ground commander.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/pheonix/pheonix.jpg" style="width:100%" alt="2">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'CURVEBALL')" id="defaultOpen"><img src="pictures/pheonix/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'HOT HANDS')"><img src="pictures/pheonix/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'BLAZE')"><img src="pictures/pheonix/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'RUN IT BACK')"><img src="pictures/pheonix/x.png"></button>
+                    </div>
+                    
+                    <div id="CURVEBALL" class="tabcontent">
+                      <h3>Q - CURVEBALL</h3>
+                      <p>EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.</p>
+                    </div>
+                    <div id="HOT HANDS" class="tabcontent">
+                      <h3>E - HOT HANDS</h3>
+                      <p>EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.</p>
+                    </div>
+                    <div id="BLAZE" class="tabcontent">
+                      <h3>C - BLAZE</h3>
+                      <p>EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.</p>
+                    </div>
+                    <div id="RUN IT BACK" class="tabcontent">
+                      <h3>X - RUN IT BACK</h3>
+                      <p>INSTANTLY place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/sage/sage.webp" style="width:100%" alt="3">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'SLOW ORB')" id="defaultOpen"><img src="pictures/sage/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'HEALING ORB')"><img src="pictures/sage/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'BARRIER ORB')"><img src="pictures/sage/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'RESURRECTION')"><img src="pictures/sage/x.png"></button>
+                    </div>
+                    
+                    <div id="SLOW ORB" class="tabcontent">
+                      <h3>Q - SLOW ORB</h3>
+                      <p>EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.</p>
+                    </div>
+                    <div id="HEALING ORB" class="tabcontent">
+                      <h3>E - HEALING ORB</h3>
+                      <p>EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.</p>
+                    </div>
+                    <div id="BARRIER ORB" class="tabcontent">
+                      <h3>C - BARRIER ORB</h3>
+                      <p>EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.</p>
+                    </div>
+                    <div id="RESURRECTION" class="tabcontent">
+                      <h3>X - RESURRECTION</h3>
+                      <p>EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/sova/sova.jpg" style="width:100%" alt="4">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'SHOCK BOLT')" id="defaultOpen"><img src="pictures/sova/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'RECON BOLT')"><img src="pictures/sova/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'OWL DRONE')"><img src="pictures/sova/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'HUNTERS FURY')"><img src="pictures/sova/x.png"></button>
+                    </div>
+                    
+                    <div id="SHOCK BOLT" class="tabcontent">
+                      <h3>Q - SHOCK BOLT</h3>
+                      <p>EQUIP a bow with a shock bolt. FIRE to send the explosive forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of the projectile. ALTERNATE FIRE to add up to two bounces to this arrow.</p>
+                    </div>
+                    <div id="RECON BOLT" class="tabcontent">
+                      <h3>E - RECON BOLT</h3>
+                      <p>EQUIP a bow with a recon bolt. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. HOLD FIRE to extend the range of the projectile. ALTERNATE FIRE to add up to two bounces to this arrow.</p>
+                    </div>
+                    <div id="OWL DRONE" class="tabcontent">
+                      <h3>C - OWL DRONE</h3>
+                      <p>EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.</p>
+                    </div>
+                    <div id="HUNTERS FURY" class="tabcontent">
+                      <h3>X - HUNTER'S FURY</h3>
+                      <p>EQUIP a bow with three long-range wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/viper/viper.jpg" style="width:100%" alt="5">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'POISON CLOUD')" id="defaultOpen"><img src="pictures/viper/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'TOXIC SCREEN')"><img src="pictures/viper/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'SNAKE BITE')"><img src="pictures/viper/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'VIPERS PIT')"><img src="pictures/viper/x.png"></button>
+                    </div>
+                    
+                    <div id="POISON CLOUD" class="tabcontent">
+                      <h3>Q - POISON CLOUD</h3>
+                      <p>EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED.</p>
+                    </div>
+                    <div id="TOXIC SCREEN" class="tabcontent">
+                      <h3>E - RECON BOLT</h3>
+                      <p>EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once.</p>
+                    </div>
+                    <div id="SNAKE BITE" class="tabcontent">
+                      <h3>C - SNAKE BITE</h3>
+                      <p>EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.</p>
+                    </div>
+                    <div id="VIPERS PIT" class="tabcontent">
+                      <h3>X - VIPER'S PIT</h3>
+                      <p>EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/cypher/cypher.jpg" style="width:100%" alt="6">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'CYBER CAGE')" id="defaultOpen"><img src="pictures/cypher/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'SPYCAM')"><img src="pictures/cypher/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'TRAPWIRE')"><img src="pictures/cypher/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'NEURAL THEFT')"><img src="pictures/cypher/x.png"></button>
+                    </div>
+                    
+                    <div id="CYBER CAGE" class="tabcontent">
+                      <h3>Q - CYBER CAGE</h3>
+                      <p>INSTANTLY toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it.</p>
+                    </div>
+                    <div id="SPYCAM" class="tabcontent">
+                      <h3>E - SPYCAM</h3>
+                      <p>EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.</p>
+                    </div>
+                    <div id="TRAPWIRE" class="tabcontent">
+                      <h3>C - TRAPWIRE</h3>
+                      <p>EQUIP a trapwire. FIRE to place a destructible and covert tripwire at the targeted location creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.</p>
+                    </div>
+                    <div id="NEURAL THEFT" class="tabcontent">
+                      <h3>X - NEURAL THEFT</h3>
+                      <p>INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/reyna/reyna.jpg" style="width:100%" alt="7">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'DEVOUR')" id="defaultOpen"><img src="pictures/reyna/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'DISMISS')"><img src="pictures/reyna/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'LEER')"><img src="pictures/reyna/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'EMPRESS')"><img src="pictures/reyna/x.png"></button>
+                    </div>
+                    
+                    <div id="DEVOUR" class="tabcontent">
+                      <h3>Q - DEVOUR</h3>
+                      <p>Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds. INSTANTLY consume a nearby soul orb, rapidly healing for a short duration. Health gained through this skill exceeding 100 will decay over time. If EMPRESS is active, this skill will automatically cast and not consume the orb.</p>
+                    </div>
+                    <div id="DISMISS" class="tabcontent">
+                      <h3>E - DISMISS</h3>
+                      <p>INSTANTLY consume a nearby soul orb, becoming intangible for a short duration. If EMPRESS is active, also become invisible.</p>
+                    </div>
+                    <div id="LEER" class="tabcontent">
+                      <h3>C - LEER</h3>
+                      <p>EQUIP an ethereal destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it.</p>
+                    </div>
+                    <div id="EMPRESS" class="tabcontent">
+                      <h3>X - EMPRESS</h3>
+                      <p>INSTANTLY enter a frenzy, increasing firing speed, equip and reload speed dramatically. Scoring a kill renews the duration.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/killjoy/killjoy.jpg" style="width:100%" alt="8">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'ALARMBOT')" id="defaultOpen"><img src="pictures/killjoy/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'TURRET')"><img src="pictures/killjoy/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'NANOSWARM')"><img src="pictures/killjoy/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'LOCKDOWN')"><img src="pictures/killjoy/x.png"></button>
+                    </div>
+                    
+                    <div id="ALARMBOT" class="tabcontent">
+                      <h3>Q - ALARMBOT</h3>
+                      <p>EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range. After reaching its target, the bot explodes, applying Vulernable. HOLD EQUIP to recall a deployed bot.</p>
+                    </div>
+                    <div id="TURRET" class="tabcontent">
+                      <h3>E - TURRET</h3>
+                      <p>EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD EQUIP to recall the deployed turret.</p>
+                    </div>
+                    <div id="NANOSWARM" class="tabcontent">
+                      <h3>C - NANOSWARM</h3>
+                      <p>EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.</p>
+                    </div>
+                    <div id="LOCKDOWN" class="tabcontent">
+                      <h3>X - LOCKDOWN</h3>
+                      <p>EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/breach/breach.jpg" style="width:100%" alt="9">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'FLASHPOINT')" id="defaultOpen"><img src="pictures/breach/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'FAULT LINE')"><img src="pictures/breach/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'AFTERSHOCK')"><img src="pictures/breach/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'ROLLING THUNDER')"><img src="pictures/breach/x.png"></button>
+                    </div>
+                    
+                    <div id="FLASHPOINT" class="tabcontent">
+                      <h3>Q - FLASHPOINT</h3>
+                      <p>EQUIP a blinding charge. FIRE the charge to set fast-acting burst through the wall. The charge detonates to blind all players looking at it.</p>
+                    </div>
+                    <div id="FAULT LINE" class="tabcontent">
+                      <h3>E - FAULT LINE</h3>
+                      <p>EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone.</p>
+                    </div>
+                    <div id="AFTERSHOCK" class="tabcontent">
+                      <h3>C - AFTERSHOCK</h3>
+                      <p>EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.</p>
+                    </div>
+                    <div id="ROLLING THUNDER" class="tabcontent">
+                      <h3>X - ROLLING THUNDER</h3>
+                      <p>EQUIP a seismic charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <img src="pictures/omen/omen.jpg" style="width:100%" alt="10">
+
+                <div class="agent-info">
+                  <div class="skills">
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'PARANOIA')" id="defaultOpen"><img src="pictures/omen/q.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'DARK COVER')"><img src="pictures/omen/e.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'SHROUDED STEP')"><img src="pictures/omen/c.png"></button>
+                      <button class="tablinks" onclick="openCity(event, 'FROM THE SHADOWS')"><img src="pictures/omen/x.png"></button>
+                    </div>
+                    
+                    <div id="PARANOIA" class="tabcontent">
+                      <h3>Q - PARANOIA</h3>
+                      <p>INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.</p>
+                    </div>
+                    <div id="DARK COVER" class="tabcontent">
+                      <h3>E - DARK COVER</h3>
+                      <p>EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key with targeting to move the marker closer.</p>
+                    </div>
+                    <div id="SHROUDED STEP" class="tabcontent">
+                      <h3>C - SHROUDED STEP</h3>
+                      <p>EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.</p>
+                    </div>
+                    <div id="FROM THE SHADOWS" class="tabcontent">
+                      <h3>X - FROM THE SHADOWS</h3>
+                      <p>EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.</p>
+                    </div>
+                  </div>
+
+                  <div class="biography">
+                    <div class="bio">
+                        <h3>BIOGRAPHY</h3>
+                        <p>A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+                                 
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            
+          
+          <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script>
+
+
+          <script>
+            document.getElementById("defaultOpen").click();
+            function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+          </script>
+
+
+
+   
+    
+        <footer>
+        <p>Valo &copy; 2023 - Casey Vince Pag-ong</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="pictures/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="pictures/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="pictures/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    </div>
 </body>
 </html>
