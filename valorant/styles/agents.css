@@ -73,7 +73,7 @@ img {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 450px;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -142,17 +142,19 @@ img {
 
 
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #FF4654;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
+  font-family: Russo One, Helvetica, sans-serif;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: 0.5%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -160,9 +162,9 @@ img {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-family: Sora, Helvetica, sans-serif;
 }
 
 /* Links inside the dropdown */
@@ -177,10 +179,15 @@ img {
 .dropdown-content a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #111111;
+  color: #FF4654;
+}
 
 
 
@@ -191,6 +198,7 @@ img {
 .agent-info{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 400px;
 }
 
 .tab img{
@@ -201,6 +209,7 @@ img {
 .tab {
   overflow: hidden;
   background-color: #ECE8E1;
+  margin-top: 30px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -224,18 +233,32 @@ img {
 }
 
 /* Style the tab content */
-.bio{
+.bio h3{
+  color: #111111;
+  font-family: Russo One, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.bio p{
+  color: #111111;
+  font-family: Sora, Helvetica, sans-serif;
   font-size: 22px;
 }
+
 .tabcontent {
   font-size: 22px;
   display: none;
   padding: 6px 12px;
   border-top: none;
+  animation: fadeEffect 1s;
 }
-.tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+.tabcontent h3{
+  font-size: 30px;
+  font-family: Russo One, Helvetica, sans-serif;
 }
+.tabcontent p{
+  font-family: Sora, Helvetica, sans-serif;
+}
+
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
